@@ -164,3 +164,7 @@ bar {
 # Please remove the following exec line:
 #######################################################################
 exec i3-config-wizard
+
+
+# add by Hellwen.wu at 2014-05-21
+#for_window [class="Virtualbox"] floating enable
