@@ -161,3 +161,14 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# automatically putting clients on specific workspaces
+assign [class="chromium"] 1
+assign [class="URxvt"] 2
+
+# automatically putting workspaces on specific screens
+workspace "1:web" output eDP1
+workspace 2 output eDP1
+workspace 3 output DP1
+workspace 4 output DP1
+
